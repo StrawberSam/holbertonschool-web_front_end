@@ -45,11 +45,11 @@ a:active {
 }
 
 .button:hover {
-	color: var(--button-hover-color);
-	text-decoration: var(--button-hover-text-decoration);
-	background: var(--button-hover-background);
-	transition: var(--transition-duration);
-	transition-property: color, background-color;
+    color: var(--button-hover-color);
+    text-decoration: var(--button-hover-text-decoration);
+    background: var(--button-hover-background);
+    transition: color var(--transition-duration) var(--transition-cubic-bezier),
+                background-color var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .visually-hidden {
@@ -400,8 +400,4 @@ ul.row {
 
 .card-work:hover .card-outer {
 	transform: scale(0.95);
-}
-
-.card-work .card-image {
-	transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
