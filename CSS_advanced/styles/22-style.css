@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: var(--nav-item-link-hover);
 }
 
-.row[ul] {
+ul.row {
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 	color : var(--text-color)
 }
 
-.footer[ul] {
+.footer ul {
 	text-align: right;
 }
 
@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0.5rem;
 }
 
-[data-section-theme=“dark”] {
+[data-section-theme="dark"] {
 	--text-color: var(--color-white);
 	--section-title-color: var(--color-white);
 	background: var(--color-black);
